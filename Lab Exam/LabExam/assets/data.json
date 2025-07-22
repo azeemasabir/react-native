@@ -1,0 +1,15 @@
+{
+    "vendors": [
+      { "id": "v1", "name": "Green Valley Farm", "location": "Section A", "category": "Produce" },
+      { "id": "v2", "name": "Sunshine Bakery", "location": "Section B", "category": "Baked Goods" },
+      { "id": "v3", "name": "Ocean Fresh Seafood", "location": "Section C", "category": "Seafood" }
+    ],
+    "products": [
+      { "id": "p1", "vendorId": "v1", "name": "Organic Apples", "price": 3.99, "quantity": 50, "inStock": true, "category": "Fruit" },
+      { "id": "p2", "vendorId": "v1", "name": "Fresh Kale", "price": 2.50, "quantity": 30, "inStock": true, "category": "Vegetable" },
+      { "id": "p3", "vendorId": "v2", "name": "Sourdough Bread", "price": 5.99, "quantity": 15, "inStock": true, "category": "Bread" },
+      { "id": "p4", "vendorId": "v2", "name": "Cinnamon Rolls", "price": 4.50, "quantity": 0, "inStock": false, "category": "Pastry" },
+      { "id": "p5", "vendorId": "v3", "name": "Wild Salmon", "price": 12.99, "quantity": 10, "inStock": true, "category": "Fish" }
+    ]
+  }
+  
